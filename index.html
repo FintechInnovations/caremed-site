@@ -4,61 +4,116 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CareMED HMIS - Fintech Innovation Ke</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body { margin: 0; font-family: Arial, sans-serif; background-color: #f8f9fa; color: #333; }
-    header { background-color: #002B5B; color: #fff; padding: 60px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p { font-size: 1.2em; }
-    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    h2 { color: #002B5B; }
-    .features, .contact { background: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-top: 20px; }
-    ul { padding-left: 20px; }
-    footer { text-align: center; padding: 20px; background: #002B5B; color: #fff; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #003366 0%, #005eb8 100%);
+      color: #fff;
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      color: #003366;
+      margin-bottom: 20px;
+    }
+    .features, .contact, .about, .benefits, .architecture {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 40px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #005eb8;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>CareMED HMIS</h1>
-    <p>Empowering Healthcare with Intelligent, Africa-Centric Systems</p>
+    <p>Providing Robust, Africa-Centric Healthcare Solutions</p>
   </header>
 
-  <section>
+  <section class="about">
     <h2>About CareMED</h2>
-    <p>CareMED is a robust, modular Hospital Information Management System (HMIS) built by <strong>Fintech Innovation Ke</strong>. Designed for the realities of African healthcare, it enables hospitals and clinics to streamline operations, reduce fraud, and improve patient care. Fully web-based, it works on Linux and Windows, supporting both local and cloud deployments.</p>
+    <p>CareMED is a powerful and flexible Hospital Information Management System developed by Fintech Innovation Ke. It addresses the unique challenges faced by hospitals and clinics across Africa, integrating departments, digitizing records, and giving management deep control over operations and finances.</p>
   </section>
 
   <section class="features">
-    <h2>Key Features</h2>
+    <h2>Core Modules</h2>
     <ul>
-      <li>Outpatient & Inpatient Management</li>
-      <li>Integrated Billing & Cashiering</li>
-      <li>Pharmacy, Lab, and Radiology Modules</li>
-      <li>Accounts Receivable & Payable</li>
+      <li>Patient Registration & Queue Management</li>
+      <li>OPD, IPD, Billing, Discharge</li>
+      <li>Pharmacy, Laboratory, Radiology</li>
+      <li>Accounts Receivable/Payable, Trial Balance</li>
       <li>Inventory, Procurement & Asset Management</li>
-      <li>Electronic Medical Records (EMR)</li>
-      <li>Business Intelligence (Power BI Ready)</li>
-      <li>Cloud or On-Premise Hosting</li>
-      <li>Multi-location support via browser access</li>
-      <li>Security & Role-Based Access Control</li>
+      <li>MOH Reporting, Payroll, Messaging</li>
+      <li>Business Intelligence Dashboards</li>
     </ul>
   </section>
 
-  <section class="features">
-    <h2>Proven in the Field</h2>
-    <p>CareMED is already deployed in several large missionary hospitals in Kenya. It is tailored for scalability, low total cost of ownership, and minimal IT overhead.</p>
+  <section class="benefits">
+    <h2>Why Hospitals Choose CareMED</h2>
+    <ul>
+      <li>End-to-end digitization of clinical and financial processes</li>
+      <li>Prevents fraud and financial leakage</li>
+      <li>Real-time reporting and Power BI-ready dashboards</li>
+      <li>Browser-based: No installation needed on PCs</li>
+      <li>Role-based access and strong audit trail</li>
+      <li>Low cost of ownership with Linux and open-source tech</li>
+    </ul>
+  </section>
+
+  <section class="architecture">
+    <h2>System Architecture</h2>
+    <p>CareMED is a fully browser-based platform. Staff access the system using Chrome or Edge, eliminating the need for individual installations. The server infrastructure supports both local and cloud hosting, enabling multi-site deployments with secure VPN access for remote support and backups.</p>
   </section>
 
   <section class="contact">
-    <h2>Contact Us</h2>
-    <p>Interested in deploying CareMED at your hospital? Reach out to Collins Ambiro, Director at Fintech Innovation Ke.</p>
-    <p><strong>Email:</strong> info@fintechinnovations.co.ke<br>
+    <h2>Contact & Demo</h2>
+    <p>Are you ready to transform your hospital’s operations with a proven African healthcare system?</p>
+    <p><strong>Contact:</strong><br>
+    Collins Ambiro, Director – Fintech Innovation Ke<br>
+    <strong>Email:</strong> info@fintechinnovations.co.ke<br>
     <strong>Phone:</strong> +254-712-345-678</p>
+    <a href="#" class="button">Request a Live Demo</a>
   </section>
 
   <footer>
-    &copy; 2025 Fintech Innovation Ke. All rights reserved.
+    &copy; 2025 Fintech Innovation Ke. All Rights Reserved.
   </footer>
 </body>
 </html>
